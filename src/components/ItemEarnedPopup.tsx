@@ -14,7 +14,7 @@ export default function ItemEarnedPopup({ item, skill }: ItemEarnedPopupProps) {
   useEffect(() => {
     if (item || skill) {
       setVisible(true);
-      const timer = setTimeout(() => setVisible(false), 4000);
+      const timer = setTimeout(() => setVisible(false), 10000);
       return () => clearTimeout(timer);
     }
   }, [item, skill]);
