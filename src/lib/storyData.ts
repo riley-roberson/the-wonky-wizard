@@ -11,14 +11,14 @@ export const characters: CharacterInfo[] = [
     emoji: "🧙",
     color: "from-purple-500 to-indigo-600",
     startingItem: {
-      name: "Sparkly Wand",
-      description: "A wand that makes things turn rainbow colored!",
-      emoji: "✨",
+      name: "Mighty Wand",
+      description: "A powerful wand that crackles with magical energy!",
+      emoji: "🪄",
     },
     startingSkill: {
       name: "Silly Spell",
       description: "Makes things turn rainbow colored! Mostly...",
-      emoji: "🌈",
+      emoji: "🔮",
     },
     startNodeId: "wz-01",
   },

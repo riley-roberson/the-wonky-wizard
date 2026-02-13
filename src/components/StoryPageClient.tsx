@@ -64,10 +64,10 @@ export default function StoryPageClient({ character, nodeId }: StoryPageClientPr
   if (!node || !charInfo) {
     return (
       <div className="mx-auto max-w-2xl px-4 py-12 text-center">
-        <h1 className="mb-4 text-4xl font-bold text-gray-800">
+        <h1 className="mb-4 text-4xl font-bold text-gray-100">
           Oops! Story not found!
         </h1>
-        <p className="mb-8 text-xl text-gray-600">
+        <p className="mb-8 text-xl text-gray-400">
           This page of the story seems to have wandered off...
         </p>
         <button
@@ -83,11 +83,11 @@ export default function StoryPageClient({ character, nodeId }: StoryPageClientPr
   if (node.isEnding) {
     return (
       <main className="mx-auto max-w-3xl px-4 py-8">
-        <div className="mb-8 rounded-2xl bg-white p-8 shadow-lg">
-          <h2 className="mb-4 text-3xl font-bold text-amber-600">
+        <div className="mb-8 rounded-2xl bg-gray-800/80 p-8 shadow-lg border border-gray-700/50">
+          <h2 className="mb-4 text-3xl font-bold text-amber-400">
             {node.title}
           </h2>
-          <p className="text-xl leading-relaxed text-gray-700 whitespace-pre-line">
+          <p className="text-xl leading-relaxed text-gray-300 whitespace-pre-line">
             {node.narrative}
           </p>
           <SillyMomentBox text={node.sillyMoment} />
@@ -118,7 +118,7 @@ export default function StoryPageClient({ character, nodeId }: StoryPageClientPr
       <div className="mb-4 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <span className="text-3xl">{charInfo.emoji}</span>
-          <span className="text-lg font-bold text-gray-600">
+          <span className="text-lg font-bold text-gray-300">
             {charInfo.name}
           </span>
         </div>
@@ -128,25 +128,25 @@ export default function StoryPageClient({ character, nodeId }: StoryPageClientPr
             clearProgress(character);
             router.push("/");
           }}
-          className="rounded-lg px-3 py-1 text-sm text-gray-400 transition hover:bg-gray-100 hover:text-gray-600"
+          className="rounded-lg px-3 py-1 text-sm text-gray-500 transition hover:bg-gray-800 hover:text-gray-300"
         >
           Start Over
         </button>
       </div>
 
-      <div className="rounded-2xl bg-white p-8 shadow-lg">
-        <h2 className="mb-4 text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-500">
+      <div className="rounded-2xl bg-gray-800/80 p-8 shadow-lg border border-gray-700/50">
+        <h2 className="mb-4 text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
           {node.title}
         </h2>
 
-        <p className="text-xl leading-relaxed text-gray-700 whitespace-pre-line">
+        <p className="text-xl leading-relaxed text-gray-300 whitespace-pre-line">
           {node.narrative}
         </p>
 
         <SillyMomentBox text={node.sillyMoment} />
 
         <div className="mt-8">
-          <h3 className="mb-4 text-xl font-bold text-gray-700">
+          <h3 className="mb-4 text-xl font-bold text-gray-300">
             What do you do?
           </h3>
           <div className="flex flex-col gap-4">

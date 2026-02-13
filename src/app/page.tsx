@@ -39,10 +39,10 @@ export default function HomePage() {
   return (
     <main className="mx-auto max-w-5xl px-4 py-12">
       <div className="mb-12 text-center">
-        <h1 className="mb-2 text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-pink-500 to-amber-500">
+        <h1 className="mb-2 text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-400 to-amber-400">
           The Wonky Wizard
         </h1>
-        <p className="text-2xl text-gray-600">
+        <p className="text-2xl text-gray-400">
           Pick your hero and start your bedtime story!
         </p>
         <div className="mt-2 text-4xl">
@@ -73,7 +73,7 @@ export default function HomePage() {
         ))}
       </div>
 
-      <footer className="mt-16 text-center text-sm text-gray-400">
+      <footer className="mt-16 text-center text-sm text-gray-600">
         A bedtime story adventure 🌙
       </footer>
     </main>

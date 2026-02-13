@@ -7,7 +7,7 @@ export const wonkyWizardStory: StoryNode[] = [
     character: "wonky-wizard",
     title: "The Wonky Wizard Wakes Up",
     narrative:
-      "You are the Wonky Wizard! You live in a tall, wobbly tower that leans to the left. Every morning your alarm clock is a rooster that sneezes instead of crowing. Today you wake up to find a sparkly letter sliding under your door. It says: \"HELP! The Giggle Goblin has stolen all the colors from Rainbow Village! Everything is gray and boring!\" You grab your Sparkly Wand and your pointy hat (which keeps falling over your eyes) and head out the door.",
+      "You are the Wonky Wizard! You live in a tall, wobbly tower that leans to the left. Every morning your alarm clock is a rooster that sneezes instead of crowing. Today you wake up to find a sparkly letter sliding under your door. It says: \"HELP! The Giggle Goblin has stolen all the colors from Rainbow Village! Everything is gray and boring!\" You grab your Mighty Wand and your pointy hat (which keeps falling over your eyes) and head out the door.",
     sillyMoment:
       "As you step outside, you trip over your own beard and roll down the hill like a wizard-shaped bowling ball. BOING BOING BOING!",
     choices: [
@@ -198,7 +198,7 @@ export const wonkyWizardStory: StoryNode[] = [
     character: "wonky-wizard",
     title: "The Great Color Explosion!",
     narrative:
-      "You point your Sparkly Wand at the jars and cast the biggest Silly Spell you've ever done! KAZOOOOOOM! All the jars start shaking and rattling. Then — POP POP POP POP POP! — every single jar bursts open and colors fly everywhere! Red and blue and green and yellow and purple swirl through the air like a beautiful tornado! The colors zoom out the windows and fly back to Rainbow Village! The Giggle Goblin watches with big, wide eyes. \"Wow,\" he whispers. \"That's the most beautiful thing I've ever seen.\" A tear rolls down his cheek. You put your Friendship Cloak around his shoulders. \"Hey,\" you say. \"Want to come to Rainbow Village? I bet they'd love someone who appreciates colors THIS much.\" The Giggle Goblin's face lights up. \"Really? You mean it?\" And just like that, you didn't just save Rainbow Village — you made a new friend!",
+      "You point your Mighty Wand at the jars and cast the biggest Silly Spell you've ever done! KAZOOOOOOM! All the jars start shaking and rattling. Then — POP POP POP POP POP! — every single jar bursts open and colors fly everywhere! Red and blue and green and yellow and purple swirl through the air like a beautiful tornado! The colors zoom out the windows and fly back to Rainbow Village! The Giggle Goblin watches with big, wide eyes. \"Wow,\" he whispers. \"That's the most beautiful thing I've ever seen.\" A tear rolls down his cheek. You put your Friendship Cloak around his shoulders. \"Hey,\" you say. \"Want to come to Rainbow Village? I bet they'd love someone who appreciates colors THIS much.\" The Giggle Goblin's face lights up. \"Really? You mean it?\" And just like that, you didn't just save Rainbow Village — you made a new friend!",
     sillyMoment:
       "The colors are so excited to be free that they paint a silly mustache on everybody, including the mountain, which wakes up and says, \"Hey! Who put a mustache on me?!\" HONK-SHOO— wait, WHAT?!",
     isEnding: true,
